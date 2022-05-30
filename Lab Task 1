@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form</title>
+</head>
+<body>
+ <h1 style="color:tomato; " ;>Donor Information </h1>
+
+<form >
+
+	
+	<table >
+		<tr>
+			<td >
+	         <b>First Name</b> 
+	<label style="color:tomato;"  >*</label>
+
+	
+            </td>
+            <td>
+            	<input type="text" name="">
+            </td>
+        </tr>
+        <tr>  
+           <td>  
+             <b> Last Name</b> 
+	<label style="color:tomato">*</label>    
+            </td>
+            <td>
+            	<input type="text" name="">
+            </td>
+        </tr>
+        <tr>
+        	<td>  
+             <b> Company  </b> 
+            </td>
+            <td>
+            	<input type="text"  name="">
+            </td>
+        </tr>
+        <tr>
+        	<td>
+             <b> Address 1</b> 
+	<label style="color:tomato">*</label>
+        	</td>
+        	<td>
+        		<input type="text"  name="">
+        	</td>
+        </tr>
+
+        <tr>
+        	<td>
+             <b> Address 2</b>     
+        	</td>
+        	<td>
+        		<input type="text" name="">
+        	</td>
+        </tr>
+        <tr>
+        	<td>
+              <b> City</b> 
+	          <label style="color:tomato">*</label>   
+        	</td>
+        	<td>
+        		<input type="text" name="">
+        	</td>
+        </tr>
+        <tr>
+        	<td>
+        		<b>State:</b>
+        <label style="color:tomato">*</label>	
+        	</td>
+            <td>
+            	<select>
+            		<option>Select A State</option>
+            		<option>Dhaka</option>
+            		<option>Khulna</option>
+            		<option>Chittagong</option>
+            		<option>Rajshahi</option>
+            	</select>
+            </td>
+        </tr> 
+        <tr>
+        	<td>
+        	<b> Zip Code</b> 	
+        	<label style="color:tomato">*</label>        		
+        	</td>
+        	<td>
+        		<input type="text" name="">
+        	</td>
+        </tr>  
+        <tr>
+        	<td>
+            <b> Country</b> 	
+        	<label style="color:tomato">*</label>
+        	
+        	</td>
+        	<td>
+        		<select>
+        			<option>Select A Country</option>
+        			<option>Bangladesh</option>
+        			<option>Canada</option>
+        			<option>Spain</option>
+        		</select>
+        	</td>
+        </tr>
+        <tr>
+        	<td>
+        	<b> Phone</b> 
+        	
+        	</td>
+        	<td>
+        		<input type="text" name="">
+        	</td>
+        </tr>
+        <tr>
+        	<td>
+        	<b> Fax</b>	
+        	</td>
+        	<td>
+        		<input type="text" name="">
+        	</td>
+        </tr>
+        <tr>
+        	<td>
+        	<b> Email</b>
+        	<label style="color:tomato">*</label>	
+        	</td>
+        	<td>
+        		<input type="text" name="">
+        	</td>
+        </tr>
+
+        <tr>
+        	<td>
+        		<b>Donation Amount</b>
+        		<label style="color:tomato">*</label><br>	
+        		<sub>(Check a button or<br>
+        		 type in your amount)</sub>
+        	</td>
+        	<td>
+        		<input type="radio" name="Donation Amount">None
+        		<input type="radio" name="Donation Amount">50$
+        		<input type="radio" name="Donation Amount">75$
+        		<input type="radio" name="Donation Amount">150$
+        		<input type="radio" name="Donation Amount">Other
+        	</td>
+        </tr>
+        <tr>
+        	<td>
+        		<b>Other Amount $</b>
+        	</td>
+        	<td>
+        		<input type="text" name="">
+        	</td>
+        </tr>
+        <tr>
+        	<td>
+        		<b>Recurring Donation</b><br>
+        		<sub>(check if yes)</sub>
+        	</td>
+        	<td>
+        		<input type="checkbox">I am interested in giving on a regular basis <br>
+        		Monthly Credit Card $ <input type="text" name=""> For <input type="text" name=""> Months
+        	</td>
+        </tr>
+
+    
+    </table>
+
+ <h1 style="color:tomato; " ;>Honorarium and Memorial Donation Information </h1>
+    <table>
+    	<tr>
+    		<td>
+    			<b>I would like to make</b><br>
+    	          <b>this donation</b> 
+    		</td>
+    		<td>
+    			<input type="radio" name="donation"> ToHonor<br>
+    			<input type="radio" name="donation"> In Memory Of 
+    		</td>
+    	</tr>
+    	 <tr>
+    	 	<td>
+    	 		<b>Name</b>
+    	 	</td>
+    	 	<td>
+    	 		<input type="text" name="">
+    	 	</td>
+    	 </tr>
+         
+          <tr>
+    	 	<td>
+    	 		<b>Acknowledge Donation To</b>
+    	 	</td>
+    	 	<td>
+    	 		<input type="text" name="">
+    	 	</td>
+    	 </tr>  
+         <tr>
+    	 	<td>
+    	 		<b>Address</b>
+    	 	</td>
+    	 	<td>
+    	 		<input type="text" name="">
+    	 	</td>
+    	 </tr>
+          <tr>
+    	 	<td>
+    	 		<b>City</b>
+    	 	</td>
+    	 	<td>
+    	 		<input type="text" name="">
+    	 	</td>
+    	 </tr>
+         <tr>
+        	<td>
+        		<b>State:</b>
+        	
+        	</td>
+            <td>
+            	<select>
+            		<option>Select A State</option>
+            		<option>Dhaka</option>
+            		<option>Khulna</option>
+            		<option>Chittagong</option>
+            		<option>Rajshahi</option>
+            	</select>
+            </td>
+            </tr>
+            <tr>
+        	  <td>
+        	<b> Zip Code</b> 	      		
+        	  </td>
+        	<td>
+        		<input type="text" name="">
+        	</td>
+        </tr>  
+ </table>
+
+<h1 style="color:tomato;";>Additional  Information </h1>
+
+ <table>
+ 	<p>Please Enter your name,company or organization as you would like it to appear in our publications:</p>
+        <tr>
+    	 	<td>
+    	 		<b>Name</b>
+    	 	</td>
+    	 	<td>
+    	 		<input type="text" name="">
+    	 	</td>
+    	 </tr>
+         <tr>
+         	<td>
+         		<input type="checkbox" >I would like my gift to remain anonymous<br>
+         		<input type="checkbox" >My employer offers a matching gift program.I will mail The matching gift<br>
+         		<input type="checkbox" >Please save the cost of acknowleging <br>
+         	</td>
+         </tr>
+
+        <tr>
+        	<td>
+        		<b>Comments</b><br>
+        		<sub>(please type any questios or feedback)</sub>
+        	</td>
+        	<td>
+        	   <textarea></textarea>
+        	</td>
+        </tr>
+        <tr>
+        	<td>
+        		<b>How may we contact you?</b>
+        		
+        	</td>
+        	<td>
+        		<input type="checkbox">E-mail <br>
+        		<input type="checkbox">Postal Mail <br>
+        		<input type="checkbox">Telephone <br>
+        		<input type="checkbox">Fax <br>
+        		
+        	</td>
+        </tr>
+       
+
+ </table>
+    <label style="color:gray;">I would like to receive newsletters and informationabout special events by :</label>
+
+<table>
+		<tr>
+			
+			<td>
+				<input type="checkbox">E-mail <br>
+        		<input type="checkbox">Postal Mail <br>
+        		
+			</td>			
+		</tr>
+        <tr>
+        	<td><br><br>
+        		<input type="checkbox">I would Like information about volunteering 
+        	</td>
+        	
+        </tr>   
+        <tr>
+        	<td>
+        		<input type="Reset">
+        		<input type="Submit" value="Continue">
+        	</td>
+        </tr>
+
+</table>
+  <p> &#128274;Donate online with confidence.You are On A Secure Server.</p><br>
+  If you have any problems or questions,please contact <label style="color:gray;">support.</label>
+  
+</form>	
+</body>
+</html>
