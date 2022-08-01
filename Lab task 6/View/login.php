@@ -1,3 +1,26 @@
+ <?php 
+
+    
+
+
+     if (!empty($_POST['remember'])) {
+          setcookie("uname", $_POST['uname'], time()+20);
+          setcookie("password", $_POST['password'], time()+20);
+          
+          echo "Cookie set successfully";
+          
+     }else{
+          setcookie("uname", "");
+          setcookie("password", "");
+         
+
+          echo "Cookie not set";
+
+     }
+
+     
+
+ ?> 
 <?php 
 
 session_start(); 
